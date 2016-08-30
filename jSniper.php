@@ -75,14 +75,13 @@ function checkSniper(){
 $catchList = getList();
 file_put_contents('jplist.txt', "");
 for($ctr=0;;$ctr++){
-	//$str = parse2();
 	$str = array_merge(parse1(),parse2());
 	$str = array_merge($str,parse3());
 	for($c=0;$c<count($str);$c++){
 		if(in_array($str[$c]['name'], $catchList)) { 
 			$try = checkRecord("pokesniper2://".$str[$c]['name']."/".$str[$c]['coords']);
 		}else{$try=false;
-			echo $str[$c]['name']. " : ";
+			//echo $str[$c]['name']. " : ";
 		}
 		if($try){
 			resetLog();

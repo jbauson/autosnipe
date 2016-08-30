@@ -56,7 +56,6 @@ Moltres
 Nidoqueen
 NidoranFemale
 NidoranMale
-Nidorina
 Ninetales
 Oddish
 Paras
@@ -69,7 +68,6 @@ Poliwag
 Ponyta
 Psyduck
 Raichu
-Rapidash
 Raticate
 Rattata
 Rhyhorn

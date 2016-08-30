@@ -2,7 +2,7 @@
 Unpack the contents where PokeSniper2.exe  is.
 Execute registerurl.bat if you haven't done it.
 Install PHP and add it in the ENV PATH.
-Install ansi166 
+Install ansi166 by executing "ansicon.exe -I" and add to ENV PATH
 
 # jcatchList.txt
 Enter all the pokemon names here to catch
